@@ -51,6 +51,8 @@ a{
 
 a:link { color:#ffffff; } /* unvisited */
 a:hover { color:#5799EB; } /* mouse over */
+a:visited { color:#d3d3d3; } /* visited */
+a:active { color:#5799EB; } /* selected */
 
 article {
   padding-top: 100px;
@@ -71,6 +73,7 @@ h3{
 
 p{
   line-height: 1.5em;
+  margin-top: 1em;
 }
 
 .author{
